@@ -6,18 +6,18 @@ public class Hospital {
 	  private String name;
 	  private String city;
 	  private double rating;
-	  
+
 	  public Hospital() {
-		  
+
 	  }
-	  
+
 	  public Hospital(int id, String name, String city, double rating) {
 		  this.id= id;
 		  this.name= name;
 		  this.city= city;
 		  this.rating=rating;
 	  }
-	  
+
 	public int getId() {
 		return id;
 	}
